@@ -1,0 +1,462 @@
+@media screen and (max-width:1024px){
+    .info-deta .sec-info h4 {
+        font-size: 15px;
+    }
+
+    .info-deta .sec-info a{
+        font-size: 12px;
+    }
+
+    .navbar-info-details{
+        gap:10px;
+    }
+
+    .navbar-btn-sec a{
+        font-size: 15px;
+    }
+
+    .navbar-info-details hr{
+        height: 40px;
+    }
+
+    .navbar-btn-sec{
+        width: 25%;
+    }
+
+    .navbar-list{
+        width: 75%;
+    }
+
+    .navbar-brand-sec{
+        align-items: center;
+        display: flex;
+    }
+
+    .navbar-btn-sec a img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .info-deta img{
+        width: 35px;
+        height: 35px;
+        object-fit: contain;
+    }
+
+    .carousel-slide, 
+    .section-inner-why-choose-us,
+    .section-inner-grid-sec{
+        flex-direction: column;
+    }
+
+    .banner-content{
+        flex-direction: column;
+    }
+
+    .brand-sec{
+        flex-wrap: wrap;
+    }
+
+    .brand-sec img{
+        width: 33.3%;
+    }
+
+    .grid-sec-card, .grid-sec{
+        height: 350px;
+    }
+
+    .section-inner-grid-sec div {
+        flex: auto;
+    }
+
+    .step-card{
+        padding:30px 15px;
+    }
+
+    .steps-cards{
+        gap:20px;
+    }
+
+    .step-card img{
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+    }
+
+    .step-card h4{
+        font-size: 20px;
+    }
+
+    .step-card p{
+        font-size: 14px;
+    }
+
+    .tab-links li{
+        width: 33.3%;
+        flex:auto;
+    }
+
+    .tab{
+        gap:30px;
+        flex-direction: column;
+    }
+
+    .tab-image-sec, .tab-details{
+        width: 100%;
+    }
+
+    .steps-content h2{
+        font-size: 40px;
+    }
+
+    .section-inner-contract{
+        flex-direction: column;
+        gap:30px;
+    }
+
+    .contract-section, .contract-images-sect{
+        width: 100%;
+    }
+
+    .contract-not-sure-sect{
+        padding:100px 20px;
+    }
+
+    .section-proven::before{
+        width: 85%;
+    }
+
+    .proven-content{
+        width: 75%;
+    }
+
+    .proven-content h2{
+        font-size: 35px;
+    }
+
+    .proven-circle{
+        width: 150px;
+        height: 150px;
+    }
+
+    .proven-circle h3{
+        font-size: 20px;
+    }
+
+    .proven-circle p{
+        font-size: 14px;
+    }
+
+    .card-feature-item{
+        width: 45%;
+    }
+
+    .card-feature-item img{
+        width:100px;
+        height: 100px;
+    }
+
+    .card-feature-item h4{
+        font-size: 20px;
+    }
+
+    .card-feature-item p{
+        font-size: 15px;
+    }
+
+    .section-inner-simplifying{
+        flex-direction: column;
+    }
+
+    .simplifying-content h2{
+        font-size: 40px;
+    }
+
+    .simplifying-content{
+        padding: 0px!important;
+    }
+
+    .top-sec-content{
+        background-size: cover;
+        border-radius:50px ;
+    }
+
+    .top-sec-content h2{
+        text-align: center;
+    }
+
+    .bot-sec-content{
+        flex-direction: column;
+        padding:40px 0px;
+    }
+
+    .footer-info-details, .footer-brand{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-brand img{
+        width: 250px;
+    }
+
+    .footer-info-details .info-deta img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-info-details .info-deta .sec-info h4{
+        font-size: 16px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:500px){
+    .navbar-list ul{
+        position: absolute;
+        width: 100%;
+        background-color:#076CE0;
+        flex-direction: column;
+        align-items: center;
+        top: 55px;
+        left: 0px;
+        transform: translateX(-100%);
+        transition: .4s;
+    }
+
+    .footer-info-details, .footer-brand{
+        justify-content: flex-start;
+    }
+
+    .brand-content h2{
+        font-size: 35px;
+    }
+
+    .brand-content h5{
+        font-size: 20px;
+    }
+
+    .input-sec.submit img{
+        display: none;
+    }
+
+    .section-banner{
+        padding: 160px 20px 50px;
+    }
+
+    .show{
+        transform: translateX(0%)!important; 
+    }
+
+    .navbar-menu-sec{
+        gap:0px;
+    }
+
+    .navbar-list{
+        align-items: center;
+        display: flex;
+        padding:15px 0px;
+    }
+
+    .navbar-list{
+        width: 40%;
+    }
+
+    .navbar-btn-sec{
+        width: 60%;
+    }
+
+    .navbar-brand-sec{
+        width: 50%;
+    }
+
+    .navbar-top-content{
+        justify-content: center;
+    }
+
+    .navbar-info-details{
+        display: none;
+    }
+
+    .bar-toggle{
+        display: flex;
+    }
+    .contract-images-sect,
+    .footer-info-details,
+    .pricing-details{
+        flex-direction: column;
+    }
+
+    .tab-links li{
+        width: 100%;
+    }
+
+    .steps-cards{
+        flex-direction: column;
+    }
+
+    .navbar-list ul li, .navbar-list ul li a{
+        width: 100%;
+    }
+
+
+    .banner-text-form h2{
+        font-size: 30px;
+    }
+
+    .brand-sec img{
+        width: 50%;
+        padding:15px;
+    }
+
+    .why-choose-us-content h2{
+        font-size: 35px;
+    }
+
+    .why-choose-us-content p{
+        font-size: 18px;
+    }
+
+    .grid-sec-card, .grid-sec{
+        height: inherit;
+        padding: 40px 20px;
+    }
+
+    .grid-sec{
+        height: 250px;
+    }
+
+    .grid-sec-card-content h2, .grid-sec h2{
+        font-size: 35px;
+        line-height: 1.2em;
+    }
+
+    .steps-content h2, .services-tab-content-top h2{
+        font-size: 30px;
+    }
+
+    .step-card{
+        width: 100%;
+    }
+
+    .range-det input{
+        width: 100%;
+    }
+
+    .range-det, .price-det{
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .contract-section h1{
+        font-size: 50px;
+    }
+
+    .get-contract-sect{
+        width: 100%;
+    }
+
+    .contract-not-sure-sect{
+        padding: 50px 20px;
+    }
+
+    .contract-not-sure-sect h2{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .contract-not-sure-sect p{
+        width: 100%;
+    }
+
+    .gen-btn.not-sure-sect, .proven-sect{
+        width: 100%;
+    }
+
+    .proven-sect{
+        gap:10px;
+    }
+
+    .section-proven::before, .proven-content{
+        width: 100%;
+    }
+
+    .proven-circle{
+        width: 100px;
+        height: 100px;
+    }
+
+    .proven-circle h3{
+        font-size: 13px;
+    }
+
+    .proven-circle p{
+        font-size: 10px!important;
+        line-height: 1em;
+    }
+
+    .proven-content h2{
+        font-size: 30px;
+    }
+
+    .review-slide-content h2{
+        font-size: 35px ;
+        text-align: center; 
+    }
+
+    .review-info h5{
+        font-size: 20px;
+    }
+
+    .review-info p{
+        font-size: 16px;
+    }
+
+    .proven-content p{
+        font-size: 16px;
+    }
+
+    .get-free-btn{
+        padding:10px 15px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .sectoin-card-features{
+        padding: 50px 20px;
+    }
+
+    .card-feature-item{
+        width: 100%;
+    }
+
+    .simplifying-content h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .simplifying-image img{
+        height: 400px;
+    }
+
+    .top-sec-content h2{
+        font-size: 25px;
+    }
+
+    .top-sec-content{
+        padding:70 20px 170px;
+    }
+
+    .info-deta{
+        width: 100%!important;
+    }
+
+    .footer-info-details hr{
+        display: none;
+    }
+
+}

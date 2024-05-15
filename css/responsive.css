@@ -459,4 +459,16 @@
         display: none;
     }
 
+    .contract-tag{
+        height: 60px;
+    }
+
+    .contract-tag h4{
+        font-size: 25px;
+    }
+
+    .contract-section h1{
+        margin-top: 30px;
+    }
+
 }
